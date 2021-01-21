@@ -49,6 +49,11 @@
 DHTesp dht;
 
 // static byte blink_value = HIGH;
+// Function declarations
+void my_homekit_loop();
+void my_homekit_setup();
+void my_homekit_report();
+void my_dht_setup();
 
 void setup() {
   Serial.begin(115200);
