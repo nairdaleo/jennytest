@@ -44,6 +44,9 @@
 #define DHTPIN D3
 #define DHTTYPE DHT11
 
+#define REPORTING_TIME_MS 2 * 1000 //
+#define SHOW_HEAP_MS 10 * 1000 //
+
 #define LOG_D(fmt, ...)   printf_P(PSTR(fmt "\n") , ##__VA_ARGS__);
 
 DHTesp dht;
@@ -96,15 +99,15 @@ void my_homekit_loop() {
   const uint32_t t = millis();
   if (t > next_report_millis) {
     // report sensor values every 2 seconds
-    next_report_millis = t + 2 * 1000;
+    next_report_millis = t + REPORTING_TIME_MS;
     my_homekit_report();
   }
   if (t > next_heap_millis) {
     // show heap info every 5 seconds
+    int connected_clients = arduino_homekit_connected_clients_count();
     next_heap_millis = t + 5 * 1000;
     LOG_D("Free heap: %d, HomeKit clients: %d",
-      ESP.getFreeHeap(), arduino_homekit_connected_clients_count());
-
+      ESP.getFreeHeap(), connected_clients);
   }
 }
 

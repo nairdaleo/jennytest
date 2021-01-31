@@ -1,0 +1,118 @@
+>>> [  13264] HomeKit: WiFi connected, ip: 10.0.0.16, mask: 255.255.255.0, gw: 10.0.0.1
+>>> [  13273] HomeKit: Configuring MDNS
+>>> [  13277] HomeKit: MDNS begin: Arduino HomeKit bridge, IP: 10.0.0.16
+Free heap: 41528, HomeKit clients: 0
+Temp (C): 19.0
+Hum (percent): 33
+Occupancy sensor is: active
+Free heap: 41256, HomeKit clients: 0
+Free heap: 40752, HomeKit clients: 0
+Temp (C): 19.0
+Hum (percent): 32
+Occupancy sensor is: active
+Free heap: 41024, HomeKit clients: 0
+Free heap: 41080, HomeKit clients: 0
+Temp (C): 19.0
+Hum (percent): 32
+Occupancy sensor is: active
+Free heap: 40752, HomeKit clients: 0
+Free heap: 41056, HomeKit clients: 0
+Temp (C): 19.0
+Hum (percent): 32
+Occupancy sensor is: active
+Free heap: 40424, HomeKit clients: 0
+Free heap: 40752, HomeKit clients: 0
+Temp (C): 19.0
+Hum (percent): 34
+Occupancy sensor is: active
+Free heap: 40960, HomeKit clients: 0
+Free heap: 41072, HomeKit clients: 0
+Temp (C): 19.0
+Hum (percent): 32
+Occupancy sensor is: active
+Free heap: 40896, HomeKit clients: 0
+Free heap: 40792, HomeKit clients: 0
+Temp (C): 19.0
+Hum (percent): 32
+Occupancy sensor is: active
+Free heap: 41024, HomeKit clients: 0
+Free heap: 40752, HomeKit clients: 0
+Temp (C): 19.0
+Hum (percent): 32
+Occupancy sensor is: active
+Free heap: 41080, HomeKit clients: 0
+Free heap: 40920, HomeKit clients: 0
+Temp (C): 19.0
+Hum (percent): 32
+Occupancy sensor is: active
+Free heap: 41080, HomeKit clients: 0
+Free heap: 40752, HomeKit clients: 0
+Temp (C): 19.0
+Hum (percent): 32
+Occupancy sensor is: active
+Free heap: 40752, HomeKit clients: 0
+Free heap: 40912, HomeKit clients: 0
+>>> [ 122017] HomeKit: Got new client: local 10.0.0.16:5556, remote 10.0.0.60:51981
+>>> [ 122026] HomeKit: [Client 1073683004] Pair Setup Step 1/3
+Temp (C): 19.0
+Hum (percent): 32
+Occupancy sensor is: active
+Free heap: 39432, HomeKit clients: 1
+Free heap: 39488, HomeKit clients: 1
+>>> [ 131490] HomeKit: [Client 1073683004] Pair Setup Step 2/3
+>>> [ 131501] HomeKit: Call s_mp_exptmod in integer.c, original winsize 6
+>>> [ 140382] HomeKit: Call s_mp_exptmod in integer.c, original winsize 5
+Temp (C): 19.0
+Hum (percent): 32
+Occupancy sensor is: active
+Free heap: 39136, HomeKit clients: 1
+>>> [ 144905] HomeKit: [Client 1073683004] Pair Setup Step 3/3
+>>> [ 144935] HomeKit: Call ge_double_scalarmult_vartime_lowmem in ge_low_mem.c
+>>> [ 145687] HomeKit: Added pairing with 05044C72-4EDE-408C-8314-7C9CC2253599
+>>> [ 145760] HomeKit: Free saved_preinit_pairing_context
+>>> [ 145765] HomeKit: [Client 1073683004] Successfully paired
+>>> [ 145942] HomeKit: Got new client: local 10.0.0.16:5556, remote 10.0.0.60:51982
+>>> [ 145951] HomeKit: [Client 1073684028] Pair Verify Step 1/2
+>>> [ 146272] HomeKit: Free heap: 39880
+>>> [ 146280] HomeKit: [Client 1073683004] Disconnected!
+>>> [ 146285] HomeKit: [Client 1073683004] Closing client connection
+>>> [ 146312] HomeKit: [Client 1073684028] Pair Verify Step 2/2
+>>> [ 146319] HomeKit: [Client 1073684028] Found pairing with 05044C72-4EDE-408C-8314-7C9CC2253599
+>>> [ 146342] HomeKit: Call ge_double_scalarmult_vartime_lowmem in ge_low_mem.c
+>>> [ 147105] HomeKit: [Client 1073684028] Verification successful, secure session established
+>>> [ 147113] HomeKit: Free heap: 41368
+>>> [ 147179] HomeKit: [Client 1073684028] Get Accessories
+>>> [ 147454] HomeKit: [Client 1073684028] Update Characteristics
+>>> [ 147476] HomeKit: [Client 1073684028] Update Characteristics
+>>> [ 147517] HomeKit: [Client 1073684028] Update Characteristics
+>>> [ 147538] HomeKit: [Client 1073684028] Update Characteristics
+>>> [ 147640] HomeKit: [Client 1073684028] Add Pairing
+>>> [ 147646] HomeKit: Added pairing with 5D633D6C-FB32-4D8F-BE5A-0A13F03FC966
+Free heap: 41656, HomeKit clients: 1
+>>> [ 149888] HomeKit: Got new client: local 10.0.0.16:5556, remote 10.0.0.3:56735
+>>> [ 149897] HomeKit: [Client 1073681820] Pair Verify Step 1/2
+>>> [ 150219] HomeKit: Free heap: 39520
+>>> [ 150589] HomeKit: [Client 1073681820] Pair Verify Step 2/2
+>>> [ 150596] HomeKit: [Client 1073681820] Found pairing with 05044C72-4EDE-408C-8314-7C9CC2253599
+>>> [ 150619] HomeKit: Call ge_double_scalarmult_vartime_lowmem in ge_low_mem.c
+>>> [ 151382] HomeKit: [Client 1073681820] Verification successful, secure session established
+>>> [ 151390] HomeKit: Free heap: 39688
+>>> [ 151641] HomeKit: [Client 1073681820] Get Accessories
+>>> [ 151738] HomeKit: [Client 1073681820] Update Characteristics
+>>> [ 151759] HomeKit: [Client 1073681820] Update Characteristics
+>>> [ 151791] HomeKit: [Client 1073681820] Get Characteristics
+>>> [ 154775] HomeKit: [Client 1073684028] Got characteristic 3.9 change event
+>>> [ 154783] HomeKit: [Client 1073681820] Got characteristic 3.9 change event
+>>> [ 154790] HomeKit: [Client 1073684028] Got characteristic 3.6 change event
+>>> [ 154796] HomeKit: [Client 1073681820] Got characteristic 3.6 change event
+Temp (C): 19.0
+Hum (percent): 32
+>>> [ 154806] HomeKit: [Client 1073684028] Got characteristic 2.6 change event
+>>> [ 154813] HomeKit: [Client 1073681820] Got characteristic 2.6 change event
+Occupancy sensor is: active
+Free heap: 36088, HomeKit clients: 2
+Free heap: 39992, HomeKit clients: 2
+>>> [ 164779] HomeKit: [Client 1073684028] Got characteristic 3.9 change event
+>>> [ 164786] HomeKit: [Client 1073681820] Got characteristic 3.9 change event
+>>> [ 164792] HomeKit: [Client 1073684028] Got characteristic 3.6 change event
+>>> [ 164799] HomeKit: [Client 1073681820] Got characteristic 3.6 change event
